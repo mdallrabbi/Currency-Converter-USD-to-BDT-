@@ -1,3 +1,12 @@
+/**
+ * Project Name : USD to BDT Converter.
+ * Doller Rate : 78.
+ * github user name : mdallrabbi
+ * Blog : http://mdallrabbi.blogspot.com/
+ * Created by mdallrabbi on 5/8/16.
+ */
+
+// Importing Java Classes
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -8,6 +17,7 @@ public class ConvertOparation extends JPanel{
     private JLabel inputValue, outputValue, convertedResult;
     private JTextField usdoller;
 
+    //  Constructor: Sets up the main GUI components.
 
     public ConvertOparation(){
 
@@ -28,8 +38,13 @@ public class ConvertOparation extends JPanel{
     }
 
 
+    //  Represents an action listener for the Doller Input.
+
     private class TempListener implements ActionListener
     {
+
+        //  Performs the conversion when the enter key is pressed in
+        //  the text field.
 
         public void actionPerformed ( ActionEvent event)
         {
@@ -59,5 +74,3 @@ public class ConvertOparation extends JPanel{
 
 
 }
-
-
