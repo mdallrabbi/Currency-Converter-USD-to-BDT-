@@ -23,7 +23,7 @@ public class ConvertOparation extends JPanel{
         add(outputValue);
         add(convertedResult);
 
-        setPreferredSize(new Dimension(500, 50));
+        setPreferredSize(new Dimension(600, 420));
         setBackground(Color.ORANGE);
     }
 
